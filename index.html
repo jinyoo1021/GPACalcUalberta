@@ -4,4 +4,30 @@
     <title>
         GPA Calculator
     </title>
+    <script src="script.js"></script>
+    <head>
+        <h1>GPA Calculator</h1>
+    </head>
+    <body>
+        <table id="table">
+            <th>Assignment</th>
+            <th>Grade</th>
+            <th>Weight</th>
+            <tr>
+                <td>
+                    <input type="text" name="Assignment1" size="20" style="width:100%;" class="form-control">
+                </td>
+                <td>
+                    <input type="number" name="Grade1" min="0" size="20" style="width:100%;" class="form-control">
+                </td>
+                <td>
+                    <input type="number" name="Weight1" min="0" size="20" style="width:100%;" class="form-control">
+                </td>
+            </tr>
+            <tr>
+                
+            </tr>
+        </table>
+        <input type='button' value='행추가' onclick='addRow()'/>
+    </body>
 </html>
